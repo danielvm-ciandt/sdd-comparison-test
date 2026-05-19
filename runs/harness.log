@@ -1,0 +1,30 @@
+[worker 20260519_gsd_7_G] Starting: method=gsd task=G run_num=7 port=3100
+[worker 20260519_spec-kit_4_F] Starting: method=spec-kit task=F run_num=4 port=3200
+[reset_lab_v2] Cleaning up worktree: /tmp/sabr_runs/20260519_gsd_7_G
+[reset_lab_v2] Cleaning up worktree: /tmp/sabr_runs/20260519_spec-kit_4_F
+[reset_lab_v2] Creating worktree for Task G | RUN: 20260519_gsd_7_G | METHOD: gsd
+[reset_lab_v2] Creating worktree for Task F | RUN: 20260519_spec-kit_4_F | METHOD: spec-kit
+[reset_lab_v2]   Clearing worktree...
+[reset_lab_v2]   Clearing worktree...
+[reset_lab_v2]   Copying SANDBOX/G → worktree (preserving node_modules)...
+[reset_lab_v2]   Copying SANDBOX/F → worktree (preserving node_modules)...
+[reset_lab_v2]   ✓ node_modules preserved (npm install not needed)
+[reset_lab_v2]   done. Worktree: /tmp/sabr_runs/20260519_gsd_7_G
+[worker 20260519_gsd_7_G] Worktree: /tmp/sabr_runs/20260519_gsd_7_G
+[worker 20260519_gsd_7_G] Agent slot: /tmp/sabr_runs/20260519_gsd_7_G/G (PORT=3100)
+[worker 20260519_gsd_7_G]   >> hermes-agent integration point <<
+[worker 20260519_gsd_7_G] Tests: FAIL (pass=2 fail=8)
+[reset_lab_v2]   ✓ node_modules preserved (npm install not needed)
+[reset_lab_v2]   done. Worktree: /tmp/sabr_runs/20260519_spec-kit_4_F
+[worker 20260519_spec-kit_4_F] Worktree: /tmp/sabr_runs/20260519_spec-kit_4_F
+[worker 20260519_spec-kit_4_F] Agent slot: /tmp/sabr_runs/20260519_spec-kit_4_F/F (PORT=3200)
+[worker 20260519_spec-kit_4_F]   >> hermes-agent integration point <<
+Logged: RUN_ID=20260519_gsd_7_G | cycle=2s | tokens=0 | first_code=0s | spec_before=0 | FAIL (2 pass, 8 fail)
+[worker 20260519_gsd_7_G] Logged to results.tsv
+[worker 20260519_gsd_7_G] Cleaning up worktree: /tmp/sabr_runs/20260519_gsd_7_G
+[worker 20260519_gsd_7_G] Done (exit=0)
+[worker 20260519_spec-kit_4_F] Tests: FAIL (pass=1 fail=7)
+Logged: RUN_ID=20260519_spec-kit_4_F | cycle=3s | tokens=0 | first_code=0s | spec_before=0 | FAIL (1 pass, 7 fail)
+[worker 20260519_spec-kit_4_F] Logged to results.tsv
+[worker 20260519_spec-kit_4_F] Cleaning up worktree: /tmp/sabr_runs/20260519_spec-kit_4_F
+[worker 20260519_spec-kit_4_F] Done (exit=0)
