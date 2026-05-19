@@ -66,6 +66,7 @@ trap cleanup EXIT
 # tail -1 strips any git "HEAD is now at …" informational lines that git writes
 # to stdout before the path; the path is always the final line of output.
 WTREE=$(bash "${SCRIPT_ROOT}/reset_lab_v2.sh" "$TASK" "$RUN_ID" "$METHOD" | tail -1)
+[[ -n "$WTREE" && -d "$WTREE" ]] || { log "reset_lab_v2 returned no valid worktree path"; exit 1; }
 log "Worktree: $WTREE"
 
 TASK_DIR="${WTREE}/${TASK}"
@@ -105,7 +106,7 @@ run_tests() {
   output=$(
     cd "$dir"
     PORT="$port" TEST_PORT="$port" \
-    eval "$test_cmd" 2>&1
+    bash -c "$test_cmd" 2>&1
   ) && exit_code=0 || exit_code=$?
 
   # Parse pass/fail counts
@@ -130,7 +131,10 @@ run_tests() {
   echo "${pass}|${fail}|${status}"
 }
 
-TEST_RESULT=$(run_tests "$TASK" "$TASK_DIR" "$WORKER_PORT")
+TEST_RESULT=$(run_tests "$TASK" "$TASK_DIR" "$WORKER_PORT") || {
+  log "run_tests failed; logging as FAIL"
+  TEST_RESULT="0|0|FAIL"
+}
 PASS=$(echo "$TEST_RESULT" | cut -d'|' -f1)
 FAIL=$(echo "$TEST_RESULT" | cut -d'|' -f2)
 STATUS=$(echo "$TEST_RESULT" | cut -d'|' -f3)
