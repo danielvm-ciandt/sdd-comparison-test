@@ -1,0 +1,17 @@
+run_number	methodology	task	run_id	start_time	end_time	cycle_time_sec	assertions_pass	assertions_fail	status	error_type	spec_quality	artifacts_produced	tokens_used	first_code_sec	spec_precedes_code	rework_count	files_touched	contradiction_found	notes
+2	spec-kit	C	20260519_spec-kit_2_C	2026-05-19T20:59:53-03:00	2026-05-19T20:59:57-03:00	4	1	0	PASS	—	0	0	0	0	0	0	0	0	automated-parallel-worker
+22	bmad	B	20260519_bmad_22_B	2026-05-19T20:59:56-03:00	2026-05-19T21:00:01-03:00	5	2	13	FAIL	—	0	0	0	0	0	0	0	0	automated-parallel-worker
+3	bare	F	20260519_bare_3_F	2026-05-19T20:59:58-03:00	2026-05-19T21:00:05-03:00	7	1	7	FAIL	—	0	0	0	0	0	0	0	0	automated-parallel-worker
+19	bigpowers	H	20260519_bigpowers_19_H	2026-05-19T20:59:58-03:00	2026-05-19T21:00:06-03:00	8	3	9	FAIL	—	0	0	0	0	0	0	0	0	automated-parallel-worker
+19	bigpowers	A	20260519_bigpowers_19_A	2026-05-19T21:00:07-03:00	2026-05-19T21:00:11-03:00	4	0	0	FAIL	—	0	0	0	0	0	0	0	0	automated-parallel-worker
+8	bmad	J	20260519_bmad_8_J	2026-05-19T21:00:14-03:00	2026-05-19T21:00:18-03:00	4	5	13	FAIL	—	0	0	0	0	0	0	0	0	automated-parallel-worker
+15	acps	D	20260519_acps_15_D	2026-05-19T21:00:18-03:00	2026-05-19T21:00:23-03:00	5	2	13	FAIL	—	0	0	0	0	0	0	0	0	automated-parallel-worker
+12	bmad	B	20260519_bmad_12_B	2026-05-19T21:00:19-03:00	2026-05-19T21:00:23-03:00	4	2	13	FAIL	—	0	0	0	0	0	0	0	0	automated-parallel-worker
+11	spec-kit	F	20260519_spec-kit_11_F	2026-05-19T21:00:24-03:00	2026-05-19T21:00:28-03:00	4	1	7	FAIL	—	0	0	0	0	0	0	0	0	automated-parallel-worker
+28	spec-kit	D	20260519_spec-kit_28_D	2026-05-19T21:00:31-03:00	2026-05-19T21:00:36-03:00	5	2	13	FAIL	—	0	0	0	0	0	0	0	0	automated-parallel-worker
+20	bigpowers	B	20260519_bigpowers_20_B	2026-05-19T21:00:38-03:00	2026-05-19T21:00:43-03:00	5	2	13	FAIL	—	0	0	0	0	0	0	0	0	automated-parallel-worker
+30	bmad	H	20260519_bmad_30_H	2026-05-19T21:00:39-03:00	2026-05-19T21:00:45-03:00	6	3	9	FAIL	—	0	0	0	0	0	0	0	0	automated-parallel-worker
+13	superpowers	C	20260519_superpowers_13_C	2026-05-19T21:00:40-03:00	2026-05-19T21:00:46-03:00	6	1	0	PASS	—	0	0	0	0	0	0	0	0	automated-parallel-worker
+14	spec-kit	A	20260519_spec-kit_14_A	2026-05-19T21:00:46-03:00	2026-05-19T21:00:51-03:00	5	0	0	FAIL	—	0	0	0	0	0	0	0	0	automated-parallel-worker
+20	spec-kit	A	20260519_spec-kit_20_A	2026-05-19T21:00:54-03:00	2026-05-19T21:00:57-03:00	3	0	0	FAIL	—	0	0	0	0	0	0	0	0	automated-parallel-worker
+30	spec-kit	A	20260519_spec-kit_30_A	2026-05-19T21:00:55-03:00	2026-05-19T21:00:58-03:00	3	0	0	FAIL	—	0	0	0	0	0	0	0	0	automated-parallel-worker

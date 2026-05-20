@@ -28,3 +28,248 @@ Logged: RUN_ID=20260519_spec-kit_4_F | cycle=3s | tokens=0 | first_code=0s | spe
 [worker 20260519_spec-kit_4_F] Logged to results.tsv
 [worker 20260519_spec-kit_4_F] Cleaning up worktree: /tmp/sabr_runs/20260519_spec-kit_4_F
 [worker 20260519_spec-kit_4_F] Done (exit=0)
+[worker 20260519_spec-kit_2_C] Starting: method=spec-kit task=C run_num=2 port=3100
+[worker 20260519_bare_3_F] Starting: method=bare task=F run_num=3 port=3200
+[worker 20260519_bmad_22_B] Starting: method=bmad task=B run_num=22 port=3400
+[worker 20260519_bigpowers_19_H] Starting: method=bigpowers task=H run_num=19 port=3300
+[reset_lab_v2] Cleaning up worktree: /tmp/sabr_runs/20260519_spec-kit_2_C
+[reset_lab_v2] Cleaning up worktree: /tmp/sabr_runs/20260519_bare_3_F
+[reset_lab_v2] Cleaning up worktree: /tmp/sabr_runs/20260519_bmad_22_B
+[reset_lab_v2] Cleaning up worktree: /tmp/sabr_runs/20260519_bigpowers_19_H
+[reset_lab_v2] Creating worktree for Task C | RUN: 20260519_spec-kit_2_C | METHOD: spec-kit
+[reset_lab_v2] Creating worktree for Task F | RUN: 20260519_bare_3_F | METHOD: bare
+[reset_lab_v2] Creating worktree for Task B | RUN: 20260519_bmad_22_B | METHOD: bmad
+[reset_lab_v2] Creating worktree for Task H | RUN: 20260519_bigpowers_19_H | METHOD: bigpowers
+[reset_lab_v2]   Clearing worktree...
+[reset_lab_v2]   Clearing worktree...
+[reset_lab_v2]   Clearing worktree...
+[reset_lab_v2]   Clearing worktree...
+[reset_lab_v2]   Copying SANDBOX/C → worktree (preserving node_modules)...
+[reset_lab_v2]   Copying SANDBOX/B → worktree (preserving node_modules)...
+[reset_lab_v2]   Copying SANDBOX/F → worktree (preserving node_modules)...
+[reset_lab_v2]   ✓ node_modules preserved (npm install not needed)
+[reset_lab_v2]   done. Worktree: /tmp/sabr_runs/20260519_spec-kit_2_C
+[worker 20260519_spec-kit_2_C] Worktree: /tmp/sabr_runs/20260519_spec-kit_2_C
+[reset_lab_v2]   Copying SANDBOX/H → worktree (preserving node_modules)...
+[worker 20260519_spec-kit_2_C] Agent slot: /tmp/sabr_runs/20260519_spec-kit_2_C/C (PORT=3100)
+[worker 20260519_spec-kit_2_C]   >> hermes-agent integration point <<
+[reset_lab_v2]   ✓ node_modules preserved (npm install not needed)
+[reset_lab_v2]   Cleaning spec artifacts...
+[reset_lab_v2]   done. Worktree: /tmp/sabr_runs/20260519_bmad_22_B
+[worker 20260519_bmad_22_B] Worktree: /tmp/sabr_runs/20260519_bmad_22_B
+[worker 20260519_bmad_22_B] Agent slot: /tmp/sabr_runs/20260519_bmad_22_B/B (PORT=3400)
+[worker 20260519_bmad_22_B]   >> hermes-agent integration point <<
+[worker 20260519_spec-kit_2_C] Tests: PASS (pass=1 fail=0)
+[reset_lab_v2]   ✓ node_modules preserved (npm install not needed)
+[reset_lab_v2]   done. Worktree: /tmp/sabr_runs/20260519_bare_3_F
+[worker 20260519_bare_3_F] Worktree: /tmp/sabr_runs/20260519_bare_3_F
+[worker 20260519_bare_3_F] Agent slot: /tmp/sabr_runs/20260519_bare_3_F/F (PORT=3200)
+[worker 20260519_bare_3_F]   >> hermes-agent integration point <<
+[reset_lab_v2]   ✓ node_modules preserved (npm install not needed)
+[reset_lab_v2]   done. Worktree: /tmp/sabr_runs/20260519_bigpowers_19_H
+[worker 20260519_bigpowers_19_H] Worktree: /tmp/sabr_runs/20260519_bigpowers_19_H
+[worker 20260519_bigpowers_19_H] Agent slot: /tmp/sabr_runs/20260519_bigpowers_19_H/H (PORT=3300)
+[worker 20260519_bigpowers_19_H]   >> hermes-agent integration point <<
+Logged: RUN_ID=20260519_spec-kit_2_C | cycle=4s | tokens=0 | first_code=0s | spec_before=0 | PASS (1 pass, 0 fail)
+[worker 20260519_spec-kit_2_C] Logged to results.tsv
+[worker 20260519_spec-kit_2_C] Cleaning up worktree: /tmp/sabr_runs/20260519_spec-kit_2_C
+[worker 20260519_spec-kit_2_C] Done (exit=0)
+[worker 20260519_bigpowers_19_A] Starting: method=bigpowers task=A run_num=19 port=3100
+[worker 20260519_bmad_22_B] Tests: FAIL (pass=2 fail=13)
+[reset_lab_v2] Cleaning up worktree: /tmp/sabr_runs/20260519_bigpowers_19_A
+[reset_lab_v2] Creating worktree for Task A | RUN: 20260519_bigpowers_19_A | METHOD: bigpowers
+Logged: RUN_ID=20260519_bmad_22_B | cycle=5s | tokens=0 | first_code=0s | spec_before=0 | FAIL (2 pass, 13 fail)
+[worker 20260519_bmad_22_B] Logged to results.tsv
+[worker 20260519_bmad_22_B] Cleaning up worktree: /tmp/sabr_runs/20260519_bmad_22_B
+[reset_lab_v2]   Clearing worktree...
+[worker 20260519_bare_3_F] Tests: FAIL (pass=1 fail=7)
+[reset_lab_v2]   Copying SANDBOX/A → worktree (preserving node_modules)...
+[worker 20260519_bigpowers_19_H] Tests: FAIL (pass=3 fail=9)
+[worker 20260519_bmad_22_B] Done (exit=0)
+[reset_lab_v2]   Warning: node_modules not found; npm install will run during trial
+[reset_lab_v2]   done. Worktree: /tmp/sabr_runs/20260519_bigpowers_19_A
+[worker 20260519_bigpowers_19_A] Worktree: /tmp/sabr_runs/20260519_bigpowers_19_A
+[worker 20260519_bigpowers_19_A] Agent slot: /tmp/sabr_runs/20260519_bigpowers_19_A/A (PORT=3100)
+[worker 20260519_bigpowers_19_A]   >> hermes-agent integration point <<
+[worker 20260519_bmad_8_J] Starting: method=bmad task=J run_num=8 port=3400
+[reset_lab_v2] Cleaning up worktree: /tmp/sabr_runs/20260519_bmad_8_J
+Logged: RUN_ID=20260519_bare_3_F | cycle=7s | tokens=0 | first_code=0s | spec_before=0 | FAIL (1 pass, 7 fail)
+[worker 20260519_bare_3_F] Logged to results.tsv
+[worker 20260519_bare_3_F] Cleaning up worktree: /tmp/sabr_runs/20260519_bare_3_F
+Logged: RUN_ID=20260519_bigpowers_19_H | cycle=8s | tokens=0 | first_code=0s | spec_before=0 | FAIL (3 pass, 9 fail)
+[worker 20260519_bigpowers_19_H] Logged to results.tsv
+[worker 20260519_bigpowers_19_H] Cleaning up worktree: /tmp/sabr_runs/20260519_bigpowers_19_H
+[reset_lab_v2] Creating worktree for Task J | RUN: 20260519_bmad_8_J | METHOD: bmad
+[reset_lab_v2]   Clearing worktree...
+[worker 20260519_bare_3_F] Done (exit=0)
+[worker 20260519_bigpowers_19_A] Tests: FAIL (pass=0 fail=0)
+[worker 20260519_bigpowers_19_H] Done (exit=0)
+[reset_lab_v2]   Copying SANDBOX/J → worktree (preserving node_modules)...
+[worker 20260519_acps_15_D] Starting: method=acps task=D run_num=15 port=3200
+[worker 20260519_bmad_12_B] Starting: method=bmad task=B run_num=12 port=3300
+Logged: RUN_ID=20260519_bigpowers_19_A | cycle=4s | tokens=0 | first_code=0s | spec_before=0 | FAIL (0 pass, 0 fail)
+[worker 20260519_bigpowers_19_A] Logged to results.tsv
+[worker 20260519_bigpowers_19_A] Cleaning up worktree: /tmp/sabr_runs/20260519_bigpowers_19_A
+[reset_lab_v2] Cleaning up worktree: /tmp/sabr_runs/20260519_acps_15_D
+[reset_lab_v2] Cleaning up worktree: /tmp/sabr_runs/20260519_bmad_12_B
+[reset_lab_v2]   ✓ node_modules preserved (npm install not needed)
+[reset_lab_v2]   done. Worktree: /tmp/sabr_runs/20260519_bmad_8_J
+[worker 20260519_bmad_8_J] Worktree: /tmp/sabr_runs/20260519_bmad_8_J
+[worker 20260519_bmad_8_J] Agent slot: /tmp/sabr_runs/20260519_bmad_8_J/J (PORT=3400)
+[worker 20260519_bmad_8_J]   >> hermes-agent integration point <<
+[worker 20260519_bigpowers_19_A] Done (exit=0)
+[reset_lab_v2] Creating worktree for Task D | RUN: 20260519_acps_15_D | METHOD: acps
+[reset_lab_v2] Creating worktree for Task B | RUN: 20260519_bmad_12_B | METHOD: bmad
+[reset_lab_v2]   Clearing worktree...
+[reset_lab_v2]   Clearing worktree...
+[reset_lab_v2]   Copying SANDBOX/D → worktree (preserving node_modules)...
+[reset_lab_v2]   Copying SANDBOX/B → worktree (preserving node_modules)...
+[worker 20260519_spec-kit_11_F] Starting: method=spec-kit task=F run_num=11 port=3100
+[reset_lab_v2] Cleaning up worktree: /tmp/sabr_runs/20260519_spec-kit_11_F
+[worker 20260519_bmad_8_J] Tests: FAIL (pass=5 fail=13)
+[reset_lab_v2]   ✓ node_modules preserved (npm install not needed)
+[reset_lab_v2]   Cleaning spec artifacts...
+[reset_lab_v2]   done. Worktree: /tmp/sabr_runs/20260519_acps_15_D
+[worker 20260519_acps_15_D] Worktree: /tmp/sabr_runs/20260519_acps_15_D
+[reset_lab_v2] Creating worktree for Task F | RUN: 20260519_spec-kit_11_F | METHOD: spec-kit
+[reset_lab_v2]   ✓ node_modules preserved (npm install not needed)
+[reset_lab_v2]   Cleaning spec artifacts...
+[worker 20260519_acps_15_D] Agent slot: /tmp/sabr_runs/20260519_acps_15_D/D (PORT=3200)
+[worker 20260519_acps_15_D]   >> hermes-agent integration point <<
+[reset_lab_v2]   done. Worktree: /tmp/sabr_runs/20260519_bmad_12_B
+[worker 20260519_bmad_12_B] Worktree: /tmp/sabr_runs/20260519_bmad_12_B
+[worker 20260519_bmad_12_B] Agent slot: /tmp/sabr_runs/20260519_bmad_12_B/B (PORT=3300)
+[worker 20260519_bmad_12_B]   >> hermes-agent integration point <<
+[reset_lab_v2]   Clearing worktree...
+[reset_lab_v2]   Copying SANDBOX/F → worktree (preserving node_modules)...
+Logged: RUN_ID=20260519_bmad_8_J | cycle=4s | tokens=0 | first_code=0s | spec_before=0 | FAIL (5 pass, 13 fail)
+[worker 20260519_bmad_8_J] Logged to results.tsv
+[worker 20260519_bmad_8_J] Cleaning up worktree: /tmp/sabr_runs/20260519_bmad_8_J
+[worker 20260519_bmad_8_J] Done (exit=0)
+[worker 20260519_acps_15_D] Tests: FAIL (pass=2 fail=13)
+[worker 20260519_bmad_12_B] Tests: FAIL (pass=2 fail=13)
+[reset_lab_v2]   ✓ node_modules preserved (npm install not needed)
+[reset_lab_v2]   done. Worktree: /tmp/sabr_runs/20260519_spec-kit_11_F
+[worker 20260519_spec-kit_11_F] Worktree: /tmp/sabr_runs/20260519_spec-kit_11_F
+[worker 20260519_spec-kit_11_F] Agent slot: /tmp/sabr_runs/20260519_spec-kit_11_F/F (PORT=3100)
+[worker 20260519_spec-kit_11_F]   >> hermes-agent integration point <<
+[worker 20260519_spec-kit_28_D] Starting: method=spec-kit task=D run_num=28 port=3400
+[reset_lab_v2] Cleaning up worktree: /tmp/sabr_runs/20260519_spec-kit_28_D
+Logged: RUN_ID=20260519_acps_15_D | cycle=5s | tokens=0 | first_code=0s | spec_before=0 | FAIL (2 pass, 13 fail)
+[worker 20260519_acps_15_D] Logged to results.tsv
+[worker 20260519_acps_15_D] Cleaning up worktree: /tmp/sabr_runs/20260519_acps_15_D
+Logged: RUN_ID=20260519_bmad_12_B | cycle=4s | tokens=0 | first_code=0s | spec_before=0 | FAIL (2 pass, 13 fail)
+[worker 20260519_bmad_12_B] Logged to results.tsv
+[worker 20260519_bmad_12_B] Cleaning up worktree: /tmp/sabr_runs/20260519_bmad_12_B
+[reset_lab_v2] Creating worktree for Task D | RUN: 20260519_spec-kit_28_D | METHOD: spec-kit
+[reset_lab_v2]   Clearing worktree...
+[worker 20260519_acps_15_D] Done (exit=0)
+[worker 20260519_bmad_12_B] Done (exit=0)
+[worker 20260519_spec-kit_11_F] Tests: FAIL (pass=1 fail=7)
+[reset_lab_v2]   Copying SANDBOX/D → worktree (preserving node_modules)...
+[worker 20260519_bigpowers_20_B] Starting: method=bigpowers task=B run_num=20 port=3200
+[worker 20260519_bmad_30_H] Starting: method=bmad task=H run_num=30 port=3300
+[reset_lab_v2]   ✓ node_modules preserved (npm install not needed)
+[reset_lab_v2]   Cleaning spec artifacts...
+Logged: RUN_ID=20260519_spec-kit_11_F | cycle=4s | tokens=0 | first_code=0s | spec_before=0 | FAIL (1 pass, 7 fail)
+[worker 20260519_spec-kit_11_F] Logged to results.tsv
+[worker 20260519_spec-kit_11_F] Cleaning up worktree: /tmp/sabr_runs/20260519_spec-kit_11_F
+[reset_lab_v2]   done. Worktree: /tmp/sabr_runs/20260519_spec-kit_28_D
+[worker 20260519_spec-kit_28_D] Worktree: /tmp/sabr_runs/20260519_spec-kit_28_D
+[reset_lab_v2] Cleaning up worktree: /tmp/sabr_runs/20260519_bigpowers_20_B
+[worker 20260519_spec-kit_28_D] Agent slot: /tmp/sabr_runs/20260519_spec-kit_28_D/D (PORT=3400)
+[worker 20260519_spec-kit_28_D]   >> hermes-agent integration point <<
+[reset_lab_v2] Cleaning up worktree: /tmp/sabr_runs/20260519_bmad_30_H
+[reset_lab_v2] Creating worktree for Task B | RUN: 20260519_bigpowers_20_B | METHOD: bigpowers
+[reset_lab_v2] Creating worktree for Task H | RUN: 20260519_bmad_30_H | METHOD: bmad
+[worker 20260519_spec-kit_11_F] Done (exit=0)
+[reset_lab_v2]   Clearing worktree...
+[reset_lab_v2]   Clearing worktree...
+[worker 20260519_superpowers_13_C] Starting: method=superpowers task=C run_num=13 port=3100
+[reset_lab_v2]   Copying SANDBOX/B → worktree (preserving node_modules)...
+[reset_lab_v2]   Copying SANDBOX/H → worktree (preserving node_modules)...
+[reset_lab_v2] Cleaning up worktree: /tmp/sabr_runs/20260519_superpowers_13_C
+[worker 20260519_spec-kit_28_D] Tests: FAIL (pass=2 fail=13)
+[reset_lab_v2] Creating worktree for Task C | RUN: 20260519_superpowers_13_C | METHOD: superpowers
+[reset_lab_v2]   ✓ node_modules preserved (npm install not needed)
+[reset_lab_v2]   Cleaning spec artifacts...
+[reset_lab_v2]   Clearing worktree...
+[reset_lab_v2]   done. Worktree: /tmp/sabr_runs/20260519_bigpowers_20_B
+[worker 20260519_bigpowers_20_B] Worktree: /tmp/sabr_runs/20260519_bigpowers_20_B
+[worker 20260519_bigpowers_20_B] Agent slot: /tmp/sabr_runs/20260519_bigpowers_20_B/B (PORT=3200)
+[worker 20260519_bigpowers_20_B]   >> hermes-agent integration point <<
+[reset_lab_v2]   Copying SANDBOX/C → worktree (preserving node_modules)...
+Logged: RUN_ID=20260519_spec-kit_28_D | cycle=5s | tokens=0 | first_code=0s | spec_before=0 | FAIL (2 pass, 13 fail)
+[worker 20260519_spec-kit_28_D] Logged to results.tsv
+[worker 20260519_spec-kit_28_D] Cleaning up worktree: /tmp/sabr_runs/20260519_spec-kit_28_D
+[reset_lab_v2]   ✓ node_modules preserved (npm install not needed)
+[reset_lab_v2]   done. Worktree: /tmp/sabr_runs/20260519_bmad_30_H
+[worker 20260519_bmad_30_H] Worktree: /tmp/sabr_runs/20260519_bmad_30_H
+[worker 20260519_bmad_30_H] Agent slot: /tmp/sabr_runs/20260519_bmad_30_H/H (PORT=3300)
+[worker 20260519_bmad_30_H]   >> hermes-agent integration point <<
+[reset_lab_v2]   ✓ node_modules preserved (npm install not needed)
+[reset_lab_v2]   done. Worktree: /tmp/sabr_runs/20260519_superpowers_13_C
+[worker 20260519_superpowers_13_C] Worktree: /tmp/sabr_runs/20260519_superpowers_13_C
+[worker 20260519_superpowers_13_C] Agent slot: /tmp/sabr_runs/20260519_superpowers_13_C/C (PORT=3100)
+[worker 20260519_superpowers_13_C]   >> hermes-agent integration point <<
+[worker 20260519_spec-kit_28_D] Done (exit=0)
+[worker 20260519_spec-kit_14_A] Starting: method=spec-kit task=A run_num=14 port=3400
+[reset_lab_v2] Cleaning up worktree: /tmp/sabr_runs/20260519_spec-kit_14_A
+[worker 20260519_bigpowers_20_B] Tests: FAIL (pass=2 fail=13)
+[reset_lab_v2] Creating worktree for Task A | RUN: 20260519_spec-kit_14_A | METHOD: spec-kit
+[reset_lab_v2]   Clearing worktree...
+[worker 20260519_bmad_30_H] Tests: FAIL (pass=3 fail=9)
+[reset_lab_v2]   Copying SANDBOX/A → worktree (preserving node_modules)...
+[worker 20260519_superpowers_13_C] Tests: PASS (pass=1 fail=0)
+[reset_lab_v2]   Warning: node_modules not found; npm install will run during trial
+[reset_lab_v2]   done. Worktree: /tmp/sabr_runs/20260519_spec-kit_14_A
+[worker 20260519_spec-kit_14_A] Worktree: /tmp/sabr_runs/20260519_spec-kit_14_A
+[worker 20260519_spec-kit_14_A] Agent slot: /tmp/sabr_runs/20260519_spec-kit_14_A/A (PORT=3400)
+[worker 20260519_spec-kit_14_A]   >> hermes-agent integration point <<
+Logged: RUN_ID=20260519_bigpowers_20_B | cycle=5s | tokens=0 | first_code=0s | spec_before=0 | FAIL (2 pass, 13 fail)
+[worker 20260519_bigpowers_20_B] Logged to results.tsv
+[worker 20260519_bigpowers_20_B] Cleaning up worktree: /tmp/sabr_runs/20260519_bigpowers_20_B
+Logged: RUN_ID=20260519_bmad_30_H | cycle=6s | tokens=0 | first_code=0s | spec_before=0 | FAIL (3 pass, 9 fail)
+[worker 20260519_bmad_30_H] Logged to results.tsv
+[worker 20260519_bmad_30_H] Cleaning up worktree: /tmp/sabr_runs/20260519_bmad_30_H
+[worker 20260519_bigpowers_20_B] Done (exit=0)
+Logged: RUN_ID=20260519_superpowers_13_C | cycle=6s | tokens=0 | first_code=0s | spec_before=0 | PASS (1 pass, 0 fail)
+[worker 20260519_superpowers_13_C] Logged to results.tsv
+[worker 20260519_superpowers_13_C] Cleaning up worktree: /tmp/sabr_runs/20260519_superpowers_13_C
+[worker 20260519_spec-kit_20_A] Starting: method=spec-kit task=A run_num=20 port=3200
+[worker 20260519_superpowers_13_C] Done (exit=0)
+[worker 20260519_bmad_30_H] Done (exit=0)
+[reset_lab_v2] Cleaning up worktree: /tmp/sabr_runs/20260519_spec-kit_20_A
+[worker 20260519_spec-kit_30_A] Starting: method=spec-kit task=A run_num=30 port=3100
+[worker 20260519_spec-kit_14_A] Tests: FAIL (pass=0 fail=0)
+[reset_lab_v2] Creating worktree for Task A | RUN: 20260519_spec-kit_20_A | METHOD: spec-kit
+[reset_lab_v2] Cleaning up worktree: /tmp/sabr_runs/20260519_spec-kit_30_A
+[reset_lab_v2]   Clearing worktree...
+[reset_lab_v2] Creating worktree for Task A | RUN: 20260519_spec-kit_30_A | METHOD: spec-kit
+[reset_lab_v2]   Copying SANDBOX/A → worktree (preserving node_modules)...
+Logged: RUN_ID=20260519_spec-kit_14_A | cycle=5s | tokens=0 | first_code=0s | spec_before=0 | FAIL (0 pass, 0 fail)
+[worker 20260519_spec-kit_14_A] Logged to results.tsv
+[worker 20260519_spec-kit_14_A] Cleaning up worktree: /tmp/sabr_runs/20260519_spec-kit_14_A
+[reset_lab_v2]   Clearing worktree...
+[reset_lab_v2]   Warning: node_modules not found; npm install will run during trial
+[reset_lab_v2]   done. Worktree: /tmp/sabr_runs/20260519_spec-kit_20_A
+[worker 20260519_spec-kit_20_A] Worktree: /tmp/sabr_runs/20260519_spec-kit_20_A
+[worker 20260519_spec-kit_20_A] Agent slot: /tmp/sabr_runs/20260519_spec-kit_20_A/A (PORT=3200)
+[worker 20260519_spec-kit_20_A]   >> hermes-agent integration point <<
+[reset_lab_v2]   Copying SANDBOX/A → worktree (preserving node_modules)...
+[worker 20260519_spec-kit_14_A] Done (exit=0)
+[reset_lab_v2]   Warning: node_modules not found; npm install will run during trial
+[reset_lab_v2]   done. Worktree: /tmp/sabr_runs/20260519_spec-kit_30_A
+[worker 20260519_spec-kit_30_A] Worktree: /tmp/sabr_runs/20260519_spec-kit_30_A
+[worker 20260519_spec-kit_30_A] Agent slot: /tmp/sabr_runs/20260519_spec-kit_30_A/A (PORT=3100)
+[worker 20260519_spec-kit_30_A]   >> hermes-agent integration point <<
+[worker 20260519_spec-kit_20_A] Tests: FAIL (pass=0 fail=0)
+[worker 20260519_spec-kit_30_A] Tests: FAIL (pass=0 fail=0)
+Logged: RUN_ID=20260519_spec-kit_20_A | cycle=3s | tokens=0 | first_code=0s | spec_before=0 | FAIL (0 pass, 0 fail)
+[worker 20260519_spec-kit_20_A] Logged to results.tsv
+[worker 20260519_spec-kit_20_A] Cleaning up worktree: /tmp/sabr_runs/20260519_spec-kit_20_A
+[worker 20260519_spec-kit_20_A] Done (exit=0)
+Logged: RUN_ID=20260519_spec-kit_30_A | cycle=3s | tokens=0 | first_code=0s | spec_before=0 | FAIL (0 pass, 0 fail)
+[worker 20260519_spec-kit_30_A] Logged to results.tsv
+[worker 20260519_spec-kit_30_A] Cleaning up worktree: /tmp/sabr_runs/20260519_spec-kit_30_A
+[worker 20260519_spec-kit_30_A] Done (exit=0)
