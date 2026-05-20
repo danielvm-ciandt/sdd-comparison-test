@@ -1,0 +1,12 @@
+{
+  "name": "sabr-task-a",
+  "version": "1.0.0",
+  "description": "SABR Task A: Leaky Proxy — socket leak on upstream errors",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js",
+    "detect": "node detect-leak.js"
+  },
+  "dependencies": {}
+}

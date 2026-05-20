@@ -1,0 +1,18 @@
+{
+  "artists": [
+    {"id": 1, "name": "Radiohead"},
+    {"id": 2, "name": "Portishead"}
+  ],
+  "albums": [
+    {"id": 1, "artistId": 1, "title": "OK Computer", "year": 1997},
+    {"id": 2, "artistId": 1, "title": "Kid A", "year": 2000},
+    {"id": 3, "artistId": 2, "title": "Dummy", "year": 1994}
+  ],
+  "songs": [
+    {"id": 1, "albumId": 1, "title": "Karma Police", "duration": 261},
+    {"id": 2, "albumId": 1, "title": "Paranoid Android", "duration": 387},
+    {"id": 3, "albumId": 2, "title": "Everything in Its Right Place", "duration": 249},
+    {"id": 4, "albumId": 3, "title": "Glory Box", "duration": 325},
+    {"id": 5, "albumId": 3, "title": "Sour Times", "duration": 270}
+  ]
+}

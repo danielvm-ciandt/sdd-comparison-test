@@ -1,0 +1,13 @@
+{
+  "name": "sabr-task-b",
+  "version": "1.0.0",
+  "description": "SABR Task B: Billing Slice — subscribe users to plans, generate invoices",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
